@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 100%;
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ele {
+    height: 300px;
+    width: 15%;
+    background-color: red;
+    /* display: inline-block; */
+    /* margin-left: 4%; */
+}
+
+.parent2 {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.ele2 {
+    height: 300px;
+    width: 20%;
+    background-color: red;
+    display: inline-block;
+    margin-left: 4%;
+}
