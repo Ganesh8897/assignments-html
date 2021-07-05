@@ -1,0 +1,538 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for header  */
+
+.header {
+    height: 90px;
+    width: 100%;
+    /* background-color: rgba(16, 128, 234, 1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container {
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.header_container {
+    justify-content: space-between;
+}
+
+.logo {
+    height: 90px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.nav {
+    height: 90px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.nav-item {
+    width: 20%;
+    height: 90px;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+.banner {
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('./images/banner.jpg');
+}
+
+.overlay {
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text {
+    height: 350px;
+    width: 50%;
+    background-color: rgba(16, 128, 234, 0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner_title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.banner_desc {
+    margin-bottom: 30px;
+}
+
+.padd {
+    padding: 50px;
+    /* background-color: red; */
+}
+
+.banner_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.banner_btn:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+
+/* css for services  */
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+    background: linear-gradient(to left, red, blue);
+}
+
+.services_container {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+}
+
+.service_img {
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details {
+    width: 60%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.service_padd {
+    padding: 20px;
+}
+
+.service_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: #171717;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    cursor: pointer;
+    transition: all.4s;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.service_btn:hover {
+    border-radius: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgba(16, 128, 234, 0.7);
+    transform: translatey(-10px);
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab, 0 7px 0 -2px #f95959, 0 15px 0 -4px #29a2db, 0 16px 10px -3px #39a2db;
+}
+
+.service_title {
+    margin-bottom: 15px;
+}
+
+.service_desc {
+    background-color: rgba(239, 244, 248, 0.5);
+    margin-bottom: 30px;
+}
+
+
+/* css for about  */
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+
+.about_container {
+    margin: 30px;
+    line-height: 30px;
+    display: inline;
+}
+
+.start_text {
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+
+
+/* css for highlight  */
+
+.highlight {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(16, 128, 234, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.highlight_container {
+    justify-content: space-between;
+}
+
+.high_ele {
+    width: 22%;
+    height: 230px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: white;
+}
+
+.high_ele:hover {
+    width: 24%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: white;
+}
+
+.high_title {
+    font-size: 60px;
+}
+
+.high_desc {
+    font-size: 25px;
+}
+
+
+/* css for quote  */
+
+.quote {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+    /* background: linear-gradient(to left top, red, yellow 10%); */
+    background: repeating-linear-gradient(-45deg, green, green 10%, black 10%, black 20%);
+}
+
+.quote_container {
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(to left top, red, yellow 10%); */
+}
+
+.quote_title {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.quote_btn:hover {
+    background-color: white;
+    font-weight: bold;
+    color: rgba(16, 128, 234, 1);
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+
+/* css for portfolio  */
+
+.portfolio {
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4e4;
+    font-family: segoe UI;
+}
+
+.portfolio_container {
+    width: 100%;
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+}
+
+.project {
+    width: 25%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1 {
+    background-image: url('./images/prj/airlines.jpg');
+    background-size: cover;
+}
+
+.project_2 {
+    background-image: url('./images/prj/crypoto.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_3 {
+    background-image: url('./images/prj/football.jpg');
+    background-size: cover;
+}
+
+.project_4 {
+    background-image: url('./images/prj/hotel.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5 {
+    background-image: url('./images/prj/library.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_6 {
+    background-image: url('./images/prj/philiphins.jpg');
+    background-size: cover;
+}
+
+.project_7 {
+    background-image: url('./images/prj/roket.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_8 {
+    background-image: url('./images/prj/t-shirt.jpg');
+    background-size: cover;
+}
+
+.project_title {
+    color: white;
+    width: 100%;
+    height: 150px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(16, 128, 234, .5);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover {
+    height: 400px;
+}
+
+
+/* css for footer  */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child {
+    height: 300px;
+    width: 25%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child_1 {
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first {
+    font-size: 22px;
+}
+
+.footer_child_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container {
+    width: 60%;
+    justify-content: space-between;
+}
+
+.social_icon {
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.si1 {
+    background-image: url('./Normal_icons/google2.png');
+}
+
+.si2 {
+    background-image: url('./Normal_icons/facebook2.png');
+}
+
+.si3 {
+    background-image: url('./Normal_icons/instagram2.png');
+}
+
+.si4 {
+    background-image: url('./Normal_icons/linkedin2.png');
+}
+
+.si5 {
+    background-image: url('./Normal_icons/gmail2.png');
+}
+
+si1:hover {
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+si2:hover {
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+si3:hover {
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+si4:hover {
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
+
+si5:hover {
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 50px, 0 0 25px #39a2db, 0 0 50px #ff96ab;
+}
